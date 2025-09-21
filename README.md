@@ -10,3 +10,6 @@ Hopfield networks can recall an entire pattern from partial or noisy inputs, mak
 The Max-Cut problem involves dividing the vertices of a graph into two subsets such that the total weight of the edges between the two subsets is maximized. In simpler terms, the goal is to "cut" the graph in a way that maximizes the sum of the edge weights across the cut.
  
 What maximises the cut of a node? If a node in state S0 has more neighbouring node as S1, it will have maximum number of cuts. Similarly a node with most neighbouring nodes as S0 will have maxcut if it is S1. So basically a node will have maximum cut value if it is in opposite state to majority of neurons connected to it. So we should maximise the xor value of connected neurons to maximise cut.
+
+So the energy function to minimise is:
+<img width="722" height="204" alt="image" src="https://github.com/user-attachments/assets/17a1a9a2-8d0d-4d15-88d6-a57f513c975b" />
