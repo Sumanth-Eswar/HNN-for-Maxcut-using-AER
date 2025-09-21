@@ -15,3 +15,7 @@ So the energy function to minimise is:
 
 
 <img width="261" height="102" alt="image" src="https://github.com/user-attachments/assets/17a1a9a2-8d0d-4d15-88d6-a57f513c975b" />
+
+This can be done by calculating number of neurons connected to the selected neuron that are of the same state and different state of a particular neuron and take decision based on cost function. If cost_same > cost_different, then flip the neuron. Or else leave the neuron in the same state.
+
+<img width="1204" height="567" alt="image" src="https://github.com/user-attachments/assets/2554cbb7-5766-4a61-9237-c9ff528a9538" />
