@@ -12,4 +12,6 @@ The Max-Cut problem involves dividing the vertices of a graph into two subsets s
 What maximises the cut of a node? If a node in state S0 has more neighbouring node as S1, it will have maximum number of cuts. Similarly a node with most neighbouring nodes as S0 will have maxcut if it is S1. So basically a node will have maximum cut value if it is in opposite state to majority of neurons connected to it. So we should maximise the xor value of connected neurons to maximise cut.
 
 So the energy function to minimise is:
-<img width="722" height="204" alt="image" src="https://github.com/user-attachments/assets/17a1a9a2-8d0d-4d15-88d6-a57f513c975b" />
+
+
+<img width="261" height="102" alt="image" src="https://github.com/user-attachments/assets/17a1a9a2-8d0d-4d15-88d6-a57f513c975b" />
